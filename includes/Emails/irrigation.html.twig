@@ -1,0 +1,55 @@
+{# app/Resources/views/Emails/registration.html.twig #}
+
+Hi Geovannie! <br> Below is detail information pertaining to Irrigation request service form from Website.
+
+<table>
+
+            <tr>
+                <th>Name</th>
+                <td>{{fname}}</td>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <td>{{phone}}</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>{{email}}</td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>{{address}}</td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td>{{city}}</td>
+            </tr>
+            <tr>
+                <th>State</th>
+                <td>{{state}}</td>
+            </tr>
+            <tr>
+                <th>zipcode</th>
+                <td>{{zipcode}}</td>
+            </tr>
+            <tr>
+                <th>Job Type</th>
+                <td>
+                {% for s in spam %}
+                    <li>{{ s }}</li>
+                {% endfor %}
+                </td>
+            </tr>
+            <tr>
+                <th>Lawn Info</th>
+                <td>
+                {% for s in linfo %}
+                    <li>{{ s }}</li>
+                {% endfor %}
+                </td>
+            </tr>
+            <tr>
+                <th>Descrition</th>
+                <td>{{message}}</td>
+            </tr>
+</table>

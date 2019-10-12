@@ -1,0 +1,631 @@
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Cubano-Regular';
+    background: url('../images/shattered.png') center center;
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'Cubano-Regular';
+    src: local('Cubano-Regular.otf'), url('Cubano-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: local('Nunito-Regular.otf'), url('Nunito-Regular.ttf') format('truetype');
+}
+/* SECTION COVER */
+#cover {
+    height: 100%;
+    background: url('../images/irrigation.jpg') center;
+    background-size: cover;
+    color: white;
+}
+
+.wall-sticker {
+    background: rgba(0,0,0,0.4);
+    padding: 16rem 20rem 10rem 3rem;
+    font-family: 'Cubano-Regular';
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+.wall-sticker img {
+    position: absolute;
+    top: 0.5rem;
+    left: 125px;
+}
+
+.moto {
+    font-family: 'Cubano-Regular';
+    font-size: 3rem;
+    margin-top: 295px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+/* BUTTONs */
+
+.btn-lg,
+.btn-success-outline {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid rgba(19,128,36,1);
+    font-family: 'Nunito-Regular';
+    transition: 0.5s;
+}
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active,
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline:active {
+    background-color: rgba(19,128,36,0.54);
+    border: 1px solid rgba(19,128,36,0);
+    transition: 0.5s;
+}
+
+.parallax-btn {
+    width: 200px;
+    margin: 30px auto 0 auto;
+}
+
+.fa-arrow-down {
+    margin-left: 40rem;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: white;
+    transition: 0.3s;
+}
+
+.fa-arrow-down:hover {
+    color: rgba(19,128,36,0.54);
+    transition: 0.3s;
+}
+
+/* SPANS */
+.bold-green {
+    color: rgb(16, 78, 26);
+    font-weight: 700;
+}
+
+.green-underline {
+    border-bottom: 4px solid rgb(20, 83, 30);
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+    font-family: 'Cubano-Regular';
+    padding-right: 15px;
+}
+#main-nav {
+    font-family: 'Nunito-Regular';
+}
+
+#main-nav li a {
+    border-bottom: 1px solid transparent;
+    transition: 0.5s;
+}
+
+#main-nav li a:hover {
+    border-bottom: 1px solid rgb(20, 83, 30);
+    transition: 0.5s;
+}
+
+/*GALLERY SECTION */
+
+#gallery {
+    padding: 5rem 0;
+    background-color: white; 
+}
+
+#gallery h2 {
+    text-align: center;
+}
+
+
+/*./GALLERY SECTION*/
+
+
+/* SECTION FEATURES */
+
+.section-features {
+    padding: 5rem 0;
+    background: url('../images/shattered.png') center center;
+}
+
+#features h3 {
+    text-align: center;
+}
+
+.square {
+    text-align: center;
+}
+
+.square i {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+}
+
+.square i:hover {
+    color: rgb(20, 83, 30);
+    transition: 0.3s;
+}
+
+#features ul li {
+    list-style: none;
+}
+
+.square p {
+    padding-top: 1rem;
+    font-family: 'Nunito-Regular';
+    font-size: 1.2rem;
+}
+
+.square ul {
+    padding-top: 1rem;
+    font-family: 'Nunito-Regular';
+    font-size: 1.2rem;
+}
+
+.green-hr {
+    border-top: 1px solid rgba(20, 83, 30, 1);
+    width: 170px;
+    background-color: rgba(20, 83, 30, 1);
+}
+
+#features h2,
+.under-heading {
+    text-align: center;
+}
+
+/* Masonry styles start*/
+.masonry-grid {
+  position: relative;
+}
+.grid {
+  margin: 0 auto;
+}
+
+.grid-item {
+  width: 450px;
+  margin-bottom: 10px;
+}
+
+.tall-img {
+  height: 680px;
+}
+
+h2.sub-title {
+  position: relative;
+  display: block;
+  margin: 70px auto;
+  text-align: center;
+  font-size: 35px;
+  line-height: 40px;
+}
+
+h2.sub-title::after {
+  display: block;
+  height: 2px;
+  background: black;
+  content: "";
+  width: 100px;
+  margin: 30px auto 0 auto;
+}
+
+
+/* Masonry styles end*/
+
+
+/* Irrigation Section */
+
+#section-irrigation {
+    text-align: center;
+    background: rgba(0,0,0,1) url('../images/irrigation.jpg') center repeat fixed;
+    /*background: ;*/
+    padding: 140px 0;
+    background-size: cover;
+    color: white;
+}
+
+#section-irrigation h2 {
+    margin-top: 175px;
+    margin-left: 340px;
+}
+
+.irrigation {
+    background-color: rgba(0,0,0, 0.74);
+    height: 450px;
+}
+
+.parallex-btn {
+    margin-top: 30px;
+    margin-left: 330px;
+}
+
+
+
+
+/* Irrigation Section */
+
+
+/* SECTION REVIEWS */
+
+.section-reviews {
+    padding: 8rem 0;
+}
+
+.reviews-heading {
+    text-align: center;
+}
+
+.review-link {
+    margin-bottom: 20px;
+}
+
+#reviews button {
+    color: #000;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+item img {
+    max-width: 70px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.fa-asterisk {
+    color: gold;
+}
+
+.review-img {
+    width: 135px;
+    height: auto;
+    border-radius: 50%;
+     transition: 0.5s;
+}
+
+.review-img:hover {
+    transition: 0.5s;
+    transform: scale(0.95);
+}
+
+
+/* SECTION REVIEWS */
+
+/* CONTACT SECTION */
+
+#contact h2,
+.under-heading {
+    text-align: center;
+}
+
+.irrigation-help-message {
+    font-family: 'Nunito-Regular';
+    margin-bottom: 0;
+}
+
+.irrigation-modal-para {
+    font-family: 'Nunito-Regular';
+}
+
+.intro-sentence {
+    font-family: 'Nunito-Regular';
+    margin-bottom: 45px;
+    font-size: 25px;
+    color: #747474;
+    margin-top: 25px;
+}
+
+.section-contact {
+    background-color: white;
+    padding: 10rem 0;
+}
+
+#contact .control-label {
+    font-size: 20px;
+    line-height: 80%;
+    margin-top: 10px;
+}
+
+
+.form-control {
+    font-size: 18px;
+
+}
+
+.form-horizontal {
+    padding-top: 3rem;
+}
+
+textarea:focus, input:focus {
+    border-color: rgba(20, 83, 30, 1) !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 1px rgba(20, 83, 30, 0.05) !important;
+}
+
+#contact .btn.btn-success {
+    background-color: rgba(20, 83, 30, 1);
+    border: 1px solid rgba(20, 83, 30, 1);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 5rem;
+    transition: 0.5s;
+}
+
+#contact .btn.btn-success:hover {
+    background-color: rgba(20, 83, 30, 0.9);
+    border: 1px solid rgba(20, 83, 30, 1);
+    transition: 0.5s;
+}
+
+.contact-info-header {
+    background-color: rgba(20, 83, 30, 1);
+    margin-top: 45px;
+    color: white;
+}
+
+.contact-info-header h4 {
+    color: white;
+    margin-top: 0;
+    padding: 10px 15px;
+}
+
+.contact-info-body {
+    padding: 15px 15px 0 15px;
+    border: 1px solid rgba(20, 83, 30, 1);
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#contact .control-label {
+    font-size: 1.11rem
+}
+
+/* BEGIN FOOTER */
+
+footer {
+    background-color: #222;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    font-size: 160%;
+    transition: 0.2s;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+}
+
+.fa-twitter-square:hover {
+    color: #00aced;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-instagram:hover {
+    color: #517fa4;
+}
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-google-plus-square,
+.fa-instagram {
+    transition: 0.2s;
+}
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 14px;
+    font-family: 'Nunito-Regular';
+}
+
+.fa-chevron-circle-up {
+    margin-top: 35px;
+    color: rgba(20, 83, 30, 1);
+    transition: 0.2s;
+}
+
+.fa-chevron-circle-up:hover {
+    color: rgba(20, 83, 30, 0.92);
+    transition: 0.2s;
+}
+
+.promotion-web-designer {
+    color: #888;
+}
+
+.promotion-web-designer:hover {
+    color: #888;
+}
+
+
+
+
+/* END FOOTER */
+/* Error div */
+#error-focus,
+#irrigation-error-focus,
+#review-error-focus {
+    font-family: 'Nunito-Regular';
+}
+.custom-error {
+  color: #ff0000;
+  font-family: 'Nunito-Regular';
+}
+/* BEGIN RESPONSIVENESS */
+
+@media only screen and (max-width: 1920px) {
+
+    .wall-sticker {
+        font-size: 5rem;
+        padding: 12rem 20rem 6rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 1536px)
+{
+    .wall-sticker {
+        font-size: 3rem;
+        padding: 14rem 20rem 6rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 1366px)
+{
+    .wall-sticker {
+        font-size: 5rem;
+        padding: padding: 2rem 20rem 2rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 1168px)
+{
+    .fa-arrow-down {
+        margin-left: 31rem;
+    }
+
+    .wall-sticker {
+        padding: 8rem 20rem 10rem 3rem;
+    }
+}
+
+@media only screen and (max-width: 1183px) {
+
+    .wall-sticker {
+        padding: 2rem 20rem 2rem 2rem;
+    }
+
+    .fa-arrow-down {
+        margin-top: 5px;
+    }
+
+    .moto {
+        margin-top: 220px;
+    }
+}
+
+
+@media only screen and (max-width: 1034px)
+{
+    .moto {
+        display: none;
+    }
+
+    .fa-arrow-down {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1004px)
+{
+    #section-irrigation h2 {
+        margin-left: 0;
+        position: absolute;
+        left: 145px;
+    }
+
+    .parallex-btn {
+        margin-left: 0;
+        margin-top: 250px;
+    }
+}
+
+@media only screen and (max-width: 480px)
+{
+    .moto {
+        display: none;
+    }
+
+    .fa-arrow-down {
+        display: none;
+    }
+    .wall-sticker {
+        padding: 5rem 2rem 5rem 3rem;
+        font-size: 4rem
+    }
+
+    #section-irrigation h2 {
+        margin-left: 0;
+        position: absolute;
+    }
+
+    .parallex-btn {
+        margin-left: 0;
+        margin-top: 250px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END RESPONSIVENESS */
